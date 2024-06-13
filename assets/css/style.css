@@ -1,0 +1,27 @@
+.bg-sc-primary {
+    background-color: rgb(170, 20, 20);
+}
+
+.section {
+    margin-top: 10%;
+}
+
+.section .section-text {
+    margin-top: 10%;
+}
+
+.fs-sc-large {
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 460px) {
+    .section .section-text {
+        text-align: center;
+    }
+
+    .section .section-img img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
